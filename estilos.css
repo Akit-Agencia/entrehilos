@@ -1,0 +1,1266 @@
+@font-face {
+  font-family: "Segoe Print";
+  src: url(Segoesc.ttf);
+}
+
+body {
+  background: #feaaaa;
+  margin: 0;
+  font-family: "Segoe Print", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  background-image: url();
+}
+
+.header {
+  background-color: #f5e8cd;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container1 {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.container1 .social {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+}
+
+.social-link {
+  height: 50px;
+  width: 50px;
+  background-size: 50px;
+  margin: 0 30px;
+}
+
+.social-link.facebook {
+  background-image: url("../images/facebook.svg");
+}
+
+.social-link.instagram {
+  background-image: url("../images/instagram.svg");
+}
+
+.social-link.whatsapp {
+  background-image: url("../images/whatsapp.svg");
+}
+
+.herohilos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hilos {
+  width: 400px;
+  height: 400px;
+}
+
+.hero-image {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  animation: 2s hilito ease-in-out infinite alternate;
+}
+
+.hilos2 {
+  width: 400px;
+  height: 400px;
+}
+
+.first hr {
+  height: 12px;
+  width: 40%;
+  background-color: #fec8a6;
+  border-radius: 10px;
+  border: transparent;
+  margin-top: 100px;
+}
+
+.line hr {
+  height: 12px;
+  width: 40%;
+  background-color: #fec8a6;
+  border-radius: 10px;
+  border: transparent;
+  margin-right: 0px;
+  margin-top: 60px;
+}
+
+.huella {
+  display: flex;
+}
+
+.huellita {
+  width: 100px;
+  height: 100px;
+  margin-top: 60px;
+  margin-left: 230px;
+  animation: 3s hilito ease-in-out infinite alternate;
+}
+
+h1 {
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: #cc4b74;
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: #fff;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.first h1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  font-size: 30px;
+}
+
+.first p {
+  color: #fff;
+  padding-left: 150px;
+  text-align: left;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+
+.container {
+  max-width: auto;
+  height: auto;
+  padding: 40px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.html-video {
+  width: 100%;
+  height: auto;
+  border: 25px;
+  outline: none;
+  border-radius: 20px;
+  border: #fec8a6 10px solid;
+  filter: brightness(100%);
+  margin-left: 40px;
+  display: block;
+}
+
+section .heroshot2 .contact-form h2 {
+  margin: 0;
+  color: #cc4b74;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+}
+
+.contact-form p {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 11px;
+  margin-right: 0px;
+  padding-top: 0px;
+  text-align: left;
+  color: #000000;
+}
+
+section .heroshot2 .contact-form {
+  background: #f5e8cd none repeat scroll 0 0;
+  height: 430px;
+  width: 200px;
+  padding: 40px;
+  border-radius: 20px;
+  position: relative;
+  margin-left: 100px;
+}
+
+section .heroshot2 .contact-form input[type="text"] {
+  background: #fff none repeat scroll 0 0;
+  border-image: none;
+  border-style: none none;
+  border-radius: 5px;
+  border-width: medium medium 1px;
+  color: #000000;
+  font-family: "Segoe Print", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  width: 200px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+section .heroshot2 .contact-form input[type="number"] {
+  background: #fff none repeat scroll 0 0;
+  border-image: none;
+  border-style: none none;
+  border-radius: 5px;
+  border-width: medium medium 1px;
+  color: #000000;
+  font-family: "Segoe Print", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  width: 200px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+section .heroshot2 .contact-form input[type="📱"] {
+  background: #fff none repeat scroll 0 0;
+  border-color: -moz-use-text-color -moz-use-text-color transparent;
+  border-image: none;
+  border-style: none none;
+  border-radius: 5px;
+  border-width: medium medium 1px;
+  color: #000000;
+  font-family: "Segoe Print", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  width: 200px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+section .heroshot2 .contact-form .message textarea {
+  background: #fff none repeat scroll 0 0;
+  border-color: -moz-use-text-color -moz-use-text-color transparent;
+  border-image: none;
+  border-style: none none;
+  border-radius: 5px;
+  border-width: medium medium 1px;
+  color: #000000;
+  font-family: "Segoe Print", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: 130px;
+  width: 200px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+section .heroshot2 .contact-form input[type="file"] {
+  display: none;
+}
+
+.file {
+  margin-top: -10px;
+  margin-left: 0.7px;
+}
+
+label {
+  color: #000000;
+  background-color: #fbf5e8;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 40px;
+  font-family: "Segoe Print", sans-serif;
+  padding: 5px 23px;
+}
+
+section .heroshot2 .contact-form .submit {
+  padding-left: 105px;
+}
+
+section .heroshot2 .contact-form input[type="submit"] {
+  background: #cc4b74 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 25px;
+  color: #fff;
+  font-family: "Segoe Print", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  padding: 5px 18px;
+  margin-top: 15px;
+}
+
+section .tittle {
+  margin-top: 50px;
+}
+
+.decoracion {
+  display: flex;
+}
+
+.decoracion hr {
+  height: 12px;
+  width: 40%;
+  background-color: #fec8a6;
+  border-radius: 10px;
+  border: transparent;
+  margin-left: 0px;
+}
+
+.huellita2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  padding-right: 50px;
+  animation: 3s hilito ease-in-out infinite alternate;
+}
+
+.bolita {
+  width: 100px;
+  height: 100px;
+  margin-right: 200px;
+  animation: 3s hilito ease-in-out infinite alternate;
+}
+
+.tittle h1 {
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+.imagesBene h2 {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+
+.imagesBene img {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  border: #fec8a6 5px solid;
+  margin: 0;
+}
+
+.imagesBene {
+  margin-right: 50px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-gap: 150px;
+}
+
+.decoracion {
+  margin-top: 80px;
+}
+
+.decoracion hr {
+  height: 12px;
+  width: 40%;
+  background-color: #fec8a6;
+  border-radius: 10px;
+  border: transparent;
+  margin-left: 0px;
+}
+
+.huellita3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  padding-right: 50px;
+  animation: 3s hilito ease-in-out infinite alternate;
+}
+
+.bolita2 {
+  width: 100px;
+  height: 100px;
+  margin-right: 200px;
+  animation: 3s hilito ease-in-out infinite alternate;
+}
+
+.testline h1 {
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+.imagesTest img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: #fec8a6 5px solid;
+  margin: 0;
+}
+
+.imagesTest {
+  padding: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  column-gap: 150px;
+}
+
+.imagesTest h2,
+h3,
+p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.endline hr {
+  height: 12px;
+  width: 40%;
+  background-color: #fec8a6;
+  border-radius: 10px;
+  border: transparent;
+  margin-top: 60px;
+}
+
+.endline {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.conjuntoa {
+  width: 120px;
+  height: 120px;
+  padding-left: 200px;
+  animation: 2s hilito ease-in-out infinite alternate;
+}
+
+.conjuntob {
+  width: 120px;
+  height: 120px;
+  padding-right: 200px;
+  animation: 2s hilito ease-in-out infinite alternate;
+}
+
+footer {
+  background-color: #f5e8cd;
+  position: relative;
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #312b2d;
+  padding-top: 10px;
+}
+
+.akit p {
+  color: #f2a012;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .hilos,
+  .hilos2,
+  .hero-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .imagesBene img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .imagesBene {
+    column-gap: 80px;
+  }
+
+  .imagesTest {
+    column-gap: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hilos,
+  .hero-image,
+  .hilos2 {
+    height: 200px;
+    width: 200px;
+  }
+
+  .first hr {
+    margin-top: 50px;
+  }
+
+  .huellita {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  .first h1 {
+    margin-top: 50px;
+    font-size: 25px;
+  }
+
+  .first p {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .html-video {
+    width: 600px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+  }
+
+  section .heroshot2 .contact-form {
+    margin-left: 220px;
+  }
+
+  .imagesBene h2 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .imagesBene img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .imagesBene {
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    column-gap: 150px;
+  }
+
+  .testimony .imagesTest img {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+  }
+
+  .imagesTest {
+    column-gap: 20px;
+  }
+
+  .imagesTest h2,
+  h3,
+  p {
+    font-size: 18px;
+  }
+
+  .conjuntoa {
+    padding-left: 80px;
+  }
+
+  .conjuntob {
+    padding-right: 0px;
+    margin-left: 20px;
+  }
+
+  .endline {
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hilos,
+  .hilos2 {
+    height: 150px;
+    width: 150px;
+  }
+
+  .first h1 {
+    font-size: 20px;
+  }
+
+  .first p {
+    font-size: 18px;
+  }
+
+  .html-video {
+    width: 580px;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+
+  section .heroshot2 .contact-form {
+    margin-left: 150px;
+  }
+
+  .imagesBene {
+    display: inherit;
+    margin-left: 150px;
+  }
+
+  .imagesBene img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .imagesBene h2 {
+    text-align: left;
+  }
+
+  .imagesTest {
+    display: inherit;
+    margin-left: 100px;
+  }
+
+  .imagesTest h2,
+  h3,
+  p {
+    padding-right: 100px;
+  }
+
+  .tittle h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .footer p {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header {
+    height: 40px;
+  }
+
+  .social-link {
+    height: 30px;
+    width: 30px;
+    margin: -5px 15px;
+    background-size: 30px;
+  }
+
+  .hilos {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+  }
+
+  .hilos2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .first hr {
+    margin-left: 0px;
+  }
+
+  .first h1 {
+    margin-left: 40px;
+    font-size: 16px;
+  }
+
+  .first p {
+    padding-left: 0px;
+    margin-left: 40px;
+    font-size: 14px;
+  }
+
+  .line hr {
+    margin-left: 225px;
+  }
+
+  .huellita {
+    margin-right: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .container {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .html-video {
+    height: auto;
+    width: 400px;
+    margin: 0;
+    border: #fec8a6 5px solid;
+  }
+
+  section .heroshot2 .contact-form {
+    margin-top: 40px;
+    height: 430px;
+    padding: 40px;
+    margin-left: 60px;
+  }
+
+  section .heroshot2 .contact-form h2 {
+    font-size: 17px;
+  }
+
+  .contact-form p {
+    padding-top: 10px;
+    font-size: 11px;
+    padding-left: 0px;
+  }
+
+  section .heroshot2 .contact-form input[type="text"] {
+    font-size: 13px;
+  }
+
+  section .heroshot2 .contact-form input[type="number"] {
+    font-size: 13px;
+  }
+
+  section .heroshot2 .contact-form input[type="📱"] {
+    font-size: 13px;
+  }
+
+  section .heroshot2 .contact-form .message textarea {
+    font-size: 13px;
+  }
+
+  .file {
+    margin-left: 1.8px;
+  }
+
+  label {
+    font-size: 13px;
+    padding: 5px 31px;
+  }
+
+  section .heroshot2 .contact-form input[type="submit"] {
+    font-size: 13px;
+  }
+
+  section .heroshot2 .contact-form .submit {
+    padding-left: 115px;
+  }
+
+  .decoracion hr {
+    padding-left: 180px;
+  }
+
+  .tittle h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 17px;
+  }
+
+  .huellita2,
+  .huellita3,
+  .bolita,
+  .bolita2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .imagesBene {
+    display: inherit;
+    padding-top: 5px;
+    margin-left: 80px;
+  }
+
+  .imagesBene h2 {
+    font-size: 15px;
+    margin-left: 40px;
+    text-align: left;
+  }
+
+  .testline h1 {
+    margin-left: 40px;
+    font-size: 17px;
+  }
+
+  .imagesTest {
+    display: block;
+    padding: 10px;
+    padding-left: 60px;
+    margin-left: 0px;
+  }
+
+  .imagesTest img {
+    margin-top: 40px;
+  }
+
+  .imagesTest h2,
+  h3,
+  p {
+    margin-right: 50px;
+    font-size: 15px;
+    padding-right: 0px;
+  }
+
+  .endline {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .endline hr {
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .conjuntoa {
+    padding-left: 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .conjuntob {
+    padding-right: 50px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .social {
+    margin-left: 0px;
+  }
+
+  footer .social {
+    margin-right: 0;
+  }
+
+  footer p {
+    margin-left: 60px;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .akit p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .hilos,
+  .hilos2 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .first hr {
+    height: 7px;
+  }
+
+  .first h1 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .huellita {
+    margin-top: 20px;
+  }
+
+  .first p {
+    font-size: 13px;
+    padding-left: 0px;
+  }
+
+  .line hr {
+    margin-left: 170px;
+  }
+
+  .html-video {
+    width: 350px;
+  }
+
+  section .heroshot2 .contact-form {
+    padding: 30px;
+    height: 420px;
+    margin-left: 50px;
+  }
+
+  section .heroshot2 .contact-form h2 {
+    font-size: 15px;
+  }
+
+  section .heroshot2 .contact-form .message textarea {
+    height: 100px;
+  }
+
+  .decoracion hr {
+    padding-left: 120px;
+    height: 7px;
+  }
+
+  .huellita2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bolita {
+    width: 50px;
+    height: 50px;
+  }
+
+  .huellita3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bolita2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tittle h1 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .imagesBene {
+    margin-left: 20px;
+  }
+
+  .imagesBene img {
+    margin-left: 35px;
+  }
+
+  .imagesBene h2 {
+    padding-left: 30px;
+    font-size: 13px;
+  }
+
+  .decoracion {
+    margin-top: 30px;
+  }
+
+  .decoracion hr {
+    height: 7px;
+  }
+
+  .testline h1 {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  .imagesTest {
+    margin-left: 10px;
+    padding-left: 50px;
+  }
+
+  .testimony .imagesTest img {
+    margin-left: 20px;
+  }
+
+  .endline hr {
+    margin-top: 30px;
+    margin-right: 10px;
+    height: 7px;
+  }
+
+  .conjuntoa {
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .conjuntob {
+    padding-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hilos,
+  .hilos2 {
+    width: 90px;
+    height: 90px;
+  }
+
+  .hero-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .first hr {
+    height: 7px;
+  }
+
+  .first h1 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .huellita {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .first p {
+    font-size: 12px;
+    padding-left: 0px;
+  }
+
+  .line hr {
+    margin-left: 170px;
+  }
+
+  .html-video {
+    width: 310px;
+    margin: 0;
+    padding: 0;
+  }
+
+  section .heroshot2 .contact-form {
+    padding: 30px;
+    height: 420px;
+    margin-left: 30px;
+  }
+
+  .decoracion hr {
+    padding-left: 120px;
+    height: 7px;
+  }
+
+  .huellita2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bolita {
+    width: 50px;
+    height: 50px;
+  }
+
+  .huellita3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .bolita2 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .tittle h1 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .imagesBene {
+    padding-left: 10px;
+  }
+
+  .imagesBene img {
+    margin-left: 0px;
+  }
+
+  .imagesBene h2 {
+    font-size: 13px;
+  }
+
+  .decoracion hr {
+    height: 7px;
+  }
+
+  .testline h1 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .imagesTest {
+    padding-left: 50px;
+  }
+
+  .testimony .imagesTest img {
+    margin-left: 0px;
+  }
+
+  .endline hr {
+    margin-top: 30px;
+    height: 7px;
+  }
+
+  .conjuntoa {
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .conjuntob {
+    padding-right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  footer p {
+    margin-left: 40px;
+    font-size: 13px;
+  }
+
+  .akit p {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .hilos,
+  .hilos2 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .hero-image {
+    width: 90px;
+    height: 90px;
+  }
+
+  .huellita {
+    width: 10%;
+    height: 10%;
+  }
+
+  .first h1 {
+    font-size: 15px;
+  }
+
+  .first p {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .html-video {
+    width: 225px;
+  }
+
+  .imagesTesta h2,
+  h3,
+  p {
+    margin-right: 0px;
+  }
+
+  .contact-form p {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+
+  section .heroshot2 .contact-form {
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  section .heroshot2 .contact-form input[type="text"],
+  section .heroshot2 .contact-form input[type="number"],
+  section .heroshot2 .contact-form input[type="📱"],
+  section .heroshot2 .contact-form .message textarea {
+    width: 180px;
+    margin-left: 8px;
+  }
+
+  label {
+    padding: 5px 23px;
+    margin-left: 8px;
+  }
+
+  section .heroshot2 .contact-form .submit {
+    padding-left: 100px;
+    margin-left: 8px;
+  }
+
+  .decoracion img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .decoracion hr {
+    display: none;
+  }
+
+  .imagesBene {
+    padding-left: 40px;
+  }
+
+  .imagesBene img {
+    width: 150px;
+    height: 150px;
+    margin-left: 0;
+  }
+
+  .imagesBene h2 {
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .imagesTest {
+    margin-left: 0px;
+    padding-left: 15px;
+  }
+
+  .testimony .imagesTest img {
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+  }
+
+  .imagesTest img {
+    margin-left: -10px;
+  }
+
+  footer p {
+    margin-left: 0px;
+    font-size: 12px;
+  }
+}
+
+@keyframes hilito {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-3px, 3px);
+  }
+  100% {
+    transform: translate(3px, 3px);
+  }
+}
